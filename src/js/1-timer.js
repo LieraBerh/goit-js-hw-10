@@ -14,4 +14,4 @@ const options = {
   },
 };
 
-const flatpickr = flatpickr(inputEl, options);
+const flatpickrInit = flatpickr(inputEl, options);
