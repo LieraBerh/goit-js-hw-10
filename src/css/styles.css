@@ -118,6 +118,78 @@ button:disabled {
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-.iziToast-close {
-  fill: white;
+
+.iziToast > .iziToast-close {
+  background: url('../img/bi_x-lg.svg') no-repeat 50% 50% !important;
+  background-size: 16px !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 360px;
+}
+.delay-label {
+  display: block;
+}
+
+.delay-label input {
+  display: block;
+  width: 360px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  box-sizing: border-box;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  padding-left: 16px;
+  outline: none;
+}
+
+.delay-label input:hover {
+  border: 1px solid #000;
+}
+
+.delay-label input:active {
+  border: 1px solid #4e75ff;
+}
+
+.create-button {
+  display: flex;
+  width: 360px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  border: none;
+}
+fieldset {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  gap: 48px;
+  height: 64px;
+}
+
+fieldset:hover {
+  border: 1px solid #000;
 }

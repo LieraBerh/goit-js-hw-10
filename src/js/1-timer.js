@@ -27,6 +27,7 @@ const options = {
         backgroundColor: 'rgba(239, 64, 64, 1)',
         titleColor: 'white',
         messageColor: 'white',
+        iconUrl: '../img/bi_x-octagon.svg',
       });
     } else {
       startBtn.disabled = false;

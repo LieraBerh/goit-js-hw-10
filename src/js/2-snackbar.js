@@ -35,7 +35,7 @@ function createPromise(event) {
         titleColor: 'white',
         messageColor: 'white',
         iconColor: 'white',
-        timeout: 500000,
+        iconUrl: '../img/bi_check2-circle.svg',
       });
     })
     .catch(delay => {
@@ -45,6 +45,7 @@ function createPromise(event) {
         backgroundColor: 'rgba(239, 64, 64, 1)',
         titleColor: 'white',
         messageColor: 'white',
+        iconUrl: '../img/bi_x-octagon.svg',
       });
     });
 }
