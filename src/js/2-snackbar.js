@@ -31,14 +31,20 @@ function createPromise(event) {
       iziToast.success({
         title: 'Success',
         message: `Fulfilled promise in ${delay}ms`,
-        class: 'alert-success',
+        backgroundColor: 'rgba(89, 161, 13, 1)',
+        titleColor: 'white',
+        messageColor: 'white',
+        iconColor: 'white',
+        timeout: 500000,
       });
     })
     .catch(delay => {
       iziToast.error({
         title: 'Error',
         message: `Rejected promise in ${delay}ms`,
-        class: 'alert-error',
+        backgroundColor: 'rgba(239, 64, 64, 1)',
+        titleColor: 'white',
+        messageColor: 'white',
       });
     });
 }
