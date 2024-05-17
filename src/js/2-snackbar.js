@@ -31,12 +31,14 @@ function createPromise(event) {
       iziToast.success({
         title: 'Success',
         message: `Fulfilled promise in ${delay}ms`,
+        class: 'alert-success',
       });
     })
     .catch(delay => {
       iziToast.error({
         title: 'Error',
         message: `Rejected promise in ${delay}ms`,
+        class: 'alert-error',
       });
     });
 }
